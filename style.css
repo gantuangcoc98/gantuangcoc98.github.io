@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    color: whitesmoke;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.container {
+    padding: 40px 0px;
+    background-color: black;
+    width: auto;
+}
+
+header {
+    border-style: solid;
+    overflow: auto;
+    padding: 10px;
+    margin: 0px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: wheat;
+}
+
+.name {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.name h3 {
+    margin: 0px;
+    font-weight: 50;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+.tabs a{
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.tabs a:link {
+    color: wheat;
+}
+
+.tabs a:visited{
+    color: white;
+}
+
+section {
+    padding: 0px 25px;
+    overflow: auto;
+    border-style: solid;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#section_about {
+    border: none;
+    padding: 10px 25px;
+}
+
+.side_bar {
+    border: solid;
+    float: left;
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 20px;
+}
+
+#section_about img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+main img {
+    float: left;
+}
+
+.info {
+    padding: 20px 20px 0px;
+    display: block;
+    font-family: monospace;
+}
+
+.info #test {
+    border: solid whitesmoke;
+}
+
+.info h2 {
+    font-size: 2em;
+}
+
+.info p {
+    text-align: justify;
+    margin: 0px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info .button-container{
+    position: relative;
+}
+
+.info button {
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    font-size: 1.35em;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    margin: 20px 0px;
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+}
+
+.info button:hover {
+    transform: translate(10px, -8px);
+    opacity: 0.8;
+}
+
+.info #background-button {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.info .contact-me {
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+}
+
+#section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.info a:link {
+    color: wheat;
+    text-decoration: none;
+}
+
+.info h2 {
+    text-align: left;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.projects {
+    display: none;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+}
+
+#project-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.projects.active {
+    display: flex;
+}
+
+.projects .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.projects .project-container a {
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.faq {
+    display: none;
+    font-family: 'Open Sans';
+}
+
+.questions {
+    margin-bottom: 25px;
+}
+
+#faq-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.faq.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .answer {
+    display: none;
+}
+
+.questions.active .answer {
+    display: block;
+}
+
+.questions h3 {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.education {
+    display: none;
+    justify-content: space-evenly;
+    font-family: 'Open Sans';
+}
+
+#education-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.education.active {
+    display: flex;
+}
+
+.education table {
+    border: solid;
+}
+
+.education table th {
+    border: solid;
+}
