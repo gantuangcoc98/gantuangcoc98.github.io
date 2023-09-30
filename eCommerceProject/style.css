@@ -1,0 +1,90 @@
+* {
+  background-color: #D8C9B0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  gap: 69px;
+  padding: 10px 40px;
+  justify-content: space-between;
+  border-bottom: solid;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.company_title {
+  display: flex;
+  align-items: center;
+  line-height: 169%;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.company_title .slogan {
+  display: flex;
+  flex-direction: column;
+}
+
+.company_title .slogan h3 {
+  font-weight: lighter;
+}
+
+.company_title img {
+  width: 80px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .background_bar {
+  background-color: black;
+  border: solid;
+  height: 65px;
+}
+
+main .search_header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .search_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+main .main_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+main .main_contents h3 {
+  font-weight: normal;
+}
