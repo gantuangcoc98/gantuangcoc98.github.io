@@ -1,20 +1,34 @@
 * {
-  background-color: #D8C9B0;
   padding: 0;
   margin: 0;
 }
 
 header {
   display: flex;
-  gap: 69px;
-  padding: 10px 40px;
-  justify-content: space-between;
   border-bottom: solid;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.container {
+.title-search_container {
   display: flex;
+  align-items: center;
   gap: 50px;
+}
+
+.nav-account_container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-account_container nav {
+  align-items: center;
+}
+
+.nav-account_container nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .company_title {
@@ -23,6 +37,7 @@ header {
   line-height: 169%;
   gap: 10px;
   cursor: pointer;
+  margin-left: 40px;
 }
 
 .company_title .slogan {
@@ -39,9 +54,30 @@ header {
   height: auto;
 }
 
+.search_container {
+  padding-left: 10px;
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  gap: 10px;
+}
+
+.search_container #notif_symbol {
+  cursor: pointer;
+}
+
+.search_container input {
+  border: none;
+  height: 40px;
+  width: 400px;
+}
+
+.search_container input:focus {
+  outline: none;
+}
+
 header nav {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -49,42 +85,21 @@ header nav {
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 20px;
+  background-color: gray;
+}
+
+.account a {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-main .background_bar {
-  background-color: black;
-  border: solid;
-  height: 65px;
-}
-
-main .search_header {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-main .search_container {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-}
-
-main .main_contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  gap: 20px;
-}
-
-main .main_contents h3 {
-  font-weight: normal;
 }
