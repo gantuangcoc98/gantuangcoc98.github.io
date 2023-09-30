@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
 body {
     overflow: auto;
     -ms-overflow-style: none;
+    height: auto;
 }
 
 html {
