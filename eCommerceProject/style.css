@@ -10,6 +10,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 5px 0px;
 }
 
 .title-search_container {
@@ -22,9 +23,9 @@ header {
   display: flex;
   align-items: center;
   line-height: 169%;
-  gap: 10px;
+  gap: 5px;
   cursor: pointer;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .company_title .slogan {
@@ -43,31 +44,10 @@ header {
   height: auto;
 }
 
-.nav-account_container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-account_container nav {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-.nav-account_container #notif_symbol {
-  cursor: pointer;
-}
-
-.nav-account_container nav a {
-  text-decoration: none;
-  color: black;
-}
-
 .search_container {
   padding-left: 10px;
   display: flex;
-  border: 2px solid black;
+  border: 1px solid black;
   align-items: center;
   gap: 10px;
 }
@@ -77,34 +57,143 @@ header {
 }
 
 .search_container input {
+  font-family: 'Open Sans';
+  background-color: transparent;
   border: none;
-  height: 40px;
-  width: 400px;
+  height: 50px;
+  width: 500px;
 }
 
 .search_container input:focus {
   outline: none;
 }
 
-.account {
+.nav-account_container {
+  margin-right: 20px;
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  background-color: gray;
+}
+
+.nav-account_container nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-account_container nav a {
+  font-family: monospace;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.nav-account_container #notif_symbol {
+  cursor: pointer;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
 }
 
 .account a {
-  background-color: white;
-  border: 2px solid black;
-  padding: 10px 20px;
   text-decoration: none;
-  color: black;
   font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+.account #signup {
+  background-color: #DB4F4F;
+  border: none;
+  color: white;
 }
 
 main {
   display: flex;
   flex-direction: column;
+}
+
+.background_bar {
+  display: flex;
+  background-color: #A7A5A5;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.background_bar ul {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  font-size: large;
+}
+
+.background_bar ul li {
+  cursor: pointer;
+}
+
+.browse_container {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   gap: 20px;
+}
+
+.browse_container .browse_slogan {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.browse_container .browse_slogan h1 {
+  font-size: 40px;
+}
+
+.browse_container .browse_slogan h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.browse_container #browse_search_symbol {
+  cursor: pointer;
+  justify-content: space-between;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 60px;
+  border-radius: 50px;
+  padding-right: 20px;
+  background-color: #DB4F4F;
+}
+
+.browse_container #browse_search_symbol input {
+  border-radius: inherit;
+  margin-right: 10px;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  background-color: white;
+  border: none;
+  height: inherit;
+  width: inherit;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.browse_container #browse_search_symbol input:focus {
+  outline: none;
 }
