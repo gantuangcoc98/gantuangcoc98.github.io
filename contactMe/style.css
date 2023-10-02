@@ -20,12 +20,18 @@ body {
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0px;
+    padding: 20px 20px;
     font-family: monospace;
     font-size: 20px;
     border: 2px solid whitesmoke;
+    justify-content: space-between;
+}
+
+.my_portfolio {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -61,6 +67,8 @@ section h2 {
 #section_socials .socials {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #section_socials .socials a {
