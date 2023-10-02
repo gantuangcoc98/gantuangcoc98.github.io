@@ -12,7 +12,6 @@ project_title.addEventListener("click", () => {
     project_view.classList.toggle("active");
 });
 
-
 const faq_view = document.querySelector(".faq");
 
 const faq_tab = document.getElementById('faq_tab');
@@ -33,13 +32,6 @@ faqs.forEach(faq => {
         faq.classList.toggle("active");
     });
 });
-
-const education_title = document.getElementById("education-title");
-education_title.addEventListener("click", () => {
-    const education_view = document.querySelector(".education");
-    education_view.classList.toggle("active");
-});
-
 
 const socials_view = document.querySelector('.socials');
 

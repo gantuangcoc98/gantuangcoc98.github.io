@@ -244,24 +244,6 @@ main img {
     display: inline-block;
 }
 
-.education {
-    padding: 20px 0px;
-    display: none;
-    justify-content: space-evenly;
-}
-
-.education.active {
-    display: flex;
-}
-
-.education table {
-    border: solid;
-}
-
-.education table th {
-    border: solid;
-}
-
 .socials {
     display: none;
     justify-content: center;
