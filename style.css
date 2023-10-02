@@ -82,6 +82,18 @@ section {
     margin-right: 40px;
 }
 
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+section div {
+    font-family: 'Open Sans';
+}
+
 #section_about {
     border: none;
     padding: 10px 25px;
@@ -114,6 +126,10 @@ main img {
     padding: 20px 20px 0px;
     display: block;
     font-family: monospace;
+}
+
+.info h2 {
+    justify-content: left;
 }
 
 .info #test {
@@ -166,14 +182,6 @@ main img {
     border-radius: 50px;
 }
 
-#section-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
-}
-
 .info a:link {
     color: wheat;
     text-decoration: none;
@@ -189,16 +197,7 @@ main img {
     display: none;
     justify-content: space-evenly;
     margin: 25px 0px;
-    font-family: 'Open Sans';
     font-size: 1.2em;
-}
-
-#project-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
 }
 
 .projects.active {
@@ -219,19 +218,10 @@ main img {
 
 .faq {
     display: none;
-    font-family: 'Open Sans';
 }
 
 .questions {
     margin-bottom: 25px;
-}
-
-#faq-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
 }
 
 .faq.active {
@@ -253,17 +243,9 @@ main img {
 }
 
 .education {
+    padding: 20px 0px;
     display: none;
     justify-content: space-evenly;
-    font-family: 'Open Sans';
-}
-
-#education-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
 }
 
 .education.active {
@@ -276,4 +258,16 @@ main img {
 
 .education table th {
     border: solid;
+}
+
+.socials {
+    display: none;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.socials.active {
+    display: flex;
 }

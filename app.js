@@ -39,3 +39,18 @@ education_title.addEventListener("click", () => {
     const education_view = document.querySelector(".education");
     education_view.classList.toggle("active");
 });
+
+
+const socials_view = document.querySelector('.socials');
+
+const socials_tab = document.getElementById('socials_tab');
+socials_tab.addEventListener('click', () => {
+    if (!socials_view.classList.toggle('active')) {
+        socials_view.classList.toggle('active');
+    }
+})
+const socials_title = document.getElementById('socials_title');
+socials_title.addEventListener('click', () => {
+    socials_view.classList.toggle('active');
+})
+
