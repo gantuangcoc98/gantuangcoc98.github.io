@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Tan's - eCommerce Project</title>
+    <title>Tan's products.</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="./img/logo.png">
   </head>
 
   <body>
@@ -65,15 +66,65 @@
 
         <span class="browse_search">
           <span class="material-symbols-outlined" id="browse_search_symbol">
-            <input type="text" placeholder="Search...">
+            <input type="text" placeholder="Search..." id="browse_search_input">
             search
           </span>
         </span>
       </div>
 
-      <div class="recommended_container">
+      <section class="recommended_container">
         <h2>We recommend.</h2>
-      </div>
+
+        <ul class="products_container">
+          <li>
+            <div class="product">
+              <a href="https://stockx.com/air-jordan-1-retro-high-og-rebellionaire" target="_blank">
+                <img src="./img/1.png">
+                <span class="product_name">Air Jordan 1 "Rebellionaire"</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <a href="https://stockx.com/air-jordan-1-mid-se-coconut-milk-particle-grey" target="_blank">
+                <img src="./img/2.png">
+                <span class="product_name">Air Jordan 1 "Coconut Milk"</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <a href="https://stockx.com/nike-dunk-low-premium-vast-grey" target="_blank">
+                <img src="./img/3.png">
+                <span class="product_name">Nike Dunk Low "Vast Gray"</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="trending_container">
+        <h2>Trending</h2>
+
+        <ul class="products_container">
+          <li>
+            <div class="product">
+              <a href="https://stockx.com/crocs-classic-clog-dreamworks-shrek" target="_blank">
+                <img src="./img/trend1.png">
+                <span class="product_name">Crocs Classic Clog "Dreamworks Shrek"</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <a href="https://stockx.com/air-jordan-4-retro-red-cement" target="_blank">
+                <img src="./img/trend2.png">
+                <span class="product_name">Jordan 4 Retro "Red Cement"</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <script src="./app.js"></script>
