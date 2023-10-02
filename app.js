@@ -1,12 +1,28 @@
-const project_title = document.getElementById("project-title" || "project-tab");
+const project_view = document.querySelector(".projects");
+
+const projects_tab = document.getElementById('projects_tab');
+projects_tab.addEventListener('click', () => {
+    if (!project_view.classList.toggle("active")) {
+        project_view.classList.toggle("active")
+    }
+})
+
+const project_title = document.getElementById("project-title");
 project_title.addEventListener("click", () => {
-    const project_view = document.querySelector(".projects");
     project_view.classList.toggle("active");
 });
 
-const faq_title = document.getElementById("faq-title" || "faq-tab");
+
+const faq_view = document.querySelector(".faq");
+
+const faq_tab = document.getElementById('faq_tab');
+faq_tab.addEventListener('click', ()=> {
+    if (!faq_view.classList.toggle("active")) {
+        faq_view.classList.toggle("active");
+    }
+})
+const faq_title = document.getElementById("faq-title");
 faq_title.addEventListener("click", () => {
-    const faq_view = document.querySelector(".faq");
     faq_view.classList.toggle("active");
 });
 

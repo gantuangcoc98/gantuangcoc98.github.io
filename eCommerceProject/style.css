@@ -5,20 +5,6 @@
   margin: 0;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  overflow: auto;
-  -ms-overflow-style: none;
-  height: auto;
-}
-
-html {
-  scrollbar-width: none;
-}
-
 header {
   font-family: 'Open Sans';
   display: flex;
