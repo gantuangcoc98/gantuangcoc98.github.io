@@ -45,6 +45,7 @@ header {
 .name {
     float: left;
     font-family: 'Roboto Mono', monospace;
+    cursor: default;
 }
 
 .name h3 {
@@ -130,6 +131,7 @@ main img {
 
 .info h2 {
     justify-content: left;
+    cursor: default;
 }
 
 .info #test {
