@@ -19,7 +19,7 @@ header {
     display: flex;
     padding: 20px 20px;
     font-size: 20px;
-    border: 2px solid whitesmoke;
+    border: solid whitesmoke;
     justify-content: space-between;
 }
 
@@ -38,7 +38,7 @@ main {
 }
 
 section {
-    border: 2px solid whitesmoke;
+    border: solid whitesmoke;
     padding: 20px;
 }
 
