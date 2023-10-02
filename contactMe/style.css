@@ -7,27 +7,24 @@
     color: whitesmoke;
 }
 
-body {
-    padding: 20px 40px;
-    font-family: 'Roboto Mono';
-}
-
 .web_container {
+    font-family: 'Roboto Mono';
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 40px;
 }
 
 header {
     display: flex;
     padding: 20px 20px;
-    font-family: monospace;
     font-size: 20px;
     border: 2px solid whitesmoke;
     justify-content: space-between;
 }
 
 .my_portfolio {
+    font-family: monospace;
     cursor: pointer;
     display: flex;
     justify-content: center;
