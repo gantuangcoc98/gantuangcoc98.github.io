@@ -144,15 +144,19 @@ main {
 }
 
 .browse_container {
-  padding-top: 50px;
+  padding: 69px 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  background-image: url('./img/browse_background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .browse_container .browse_slogan {
-  font-family: monospace;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,12 +164,13 @@ main {
 }
 
 .browse_container .browse_slogan h1 {
-  font-size: 40px;
+  font-size: 59px;
+  color: white;
 }
 
 .browse_container .browse_slogan h3 {
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 25px;
+  color: #f1be8b;
 }
 
 .browse_container #browse_search_symbol {
