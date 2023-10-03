@@ -20,11 +20,11 @@ body {
 
 html {
     scrollbar-width: none;
+    background-color: black;
 }
 
 .container {
     padding: 40px 0px;
-    background-color: black;
     width: auto;
 }
 
