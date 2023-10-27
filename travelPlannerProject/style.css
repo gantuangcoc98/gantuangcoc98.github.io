@@ -24,8 +24,10 @@ html {
 }
 
 .container {
-    padding: 40px 0px;
+    padding-top: 40px;
     width: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -257,3 +259,17 @@ main img {
 .socials.active {
     display: flex;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #389776;
+    padding: 10px 0px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  footer h3 {
+    font-family: monospace;
+    font-weight: lighter;
+  }
