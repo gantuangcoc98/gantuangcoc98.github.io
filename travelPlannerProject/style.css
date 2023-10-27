@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: auto;
+    -ms-overflow-style: none;
+    height: auto;
+}
+
+html {
+    scrollbar-width: none;
+    background-color: #8DD3BB;
+}
+
+.container {
+    padding: 40px 0px;
+    width: auto;
+}
+
+header {
+    border-style: solid;
+    overflow: auto;
+    padding: 10px;
+    margin: 0px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: black;
+}
+
+.title {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    cursor: default;
+}
+
+.title h1 {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+.tabs a{
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.tabs a:link {
+    color: black;
+}
+
+.tabs a:visited{
+    color: black;
+}
+
+section {
+    padding: 0px 25px;
+    overflow: auto;
+    border-style: solid;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+section div {
+    font-family: 'Open Sans';
+}
+
+#section_booking {
+    border: none;
+    padding: 10px 25px;
+}
+
+.side_bar {
+    border: solid;
+    float: left;
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 20px;
+}
+
+#section_booking img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+main img {
+    float: left;
+}
+
+.booking {
+    padding: 20px 20px 0px;
+    display: block;
+    font-family: monospace;
+}
+
+.booking h2 {
+    justify-content: left;
+    cursor: default;
+}
+
+.booking #test {
+    border: solid whitesmoke;
+}
+
+.booking h2 {
+    font-size: 2em;
+}
+
+.booking p {
+    text-align: justify;
+    margin: 0px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.booking .button-container{
+    position: relative;
+}
+
+.booking button {
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 1.35em;
+    color: black;
+    background-color: #389776;
+    padding: 10px;
+    margin: 20px 0px;
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+}
+
+.booking button:hover {
+    transform: translate(10px, -8px);
+    opacity: 0.8;
+}
+
+.booking #background-button {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.booking .contact-me {
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.booking a:link {
+    color: wheat;
+    text-decoration: none;
+}
+
+.booking h2 {
+    text-align: left;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.wishlist {
+    display: none;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+    font-size: 1.2em;
+}
+
+.wishlist.active {
+    display: flex;
+}
+
+.wishlist .wishlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.wishlist .wishlist-container a {
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.faq {
+    display: none;
+}
+
+.questions {
+    margin-bottom: 25px;
+}
+
+.faq.active {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.faq .answer {
+    display: none;
+}
+
+.questions.active .answer {
+    display: block;
+    margin-top: 5px;
+}
+
+.questions h3 {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.socials {
+    display: none;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.socials.active {
+    display: flex;
+}

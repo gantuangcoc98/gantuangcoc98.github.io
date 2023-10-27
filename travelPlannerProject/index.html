@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv='cache-control' content='no-cache'> 
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Travel Planner</title>
+        <link rel="icon" href="./img/flight.png">
+    </head>
+
+    <body>
+        <div class="container" id="section_home">
+            <header>
+                <div class="title">
+                    <h1>Travel Planner</h1>
+                </div>
+
+                <nav class="tabs">
+                    <a href="#section_wishlist" id="wishlist_tab">Wishlist</a>
+                    <a href="#section_faq" id="faq_tab">FAQ</a>
+                </nav>
+            </header>
+
+            <main>
+                <div class="booking_container">
+                    <section id="section_booking">
+
+                        <img src="img/flight.png" alt="airplane" width="250px" height="250px">
+                        
+                        <div class="booking">
+                            <h2>Explore the world with confidence and convenience.</h2>
+                                <p>
+                                    We don't believe in one-size-fits-all travel. We're committed to helping you 
+                                    create a trip that's as unique as you are. Whether you're an adventure seeker, 
+                                    a culture enthusiast, or a relaxation connoisseur, we have something special in 
+                                    store for you.
+                                </p>
+
+                                <div class="button-container">
+                                    <a href=""><button>
+                                        Book Now
+                                    </button></a>
+
+                                    <span><button id="background-button">Book Now</button></span>
+                                </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section id="section_wishlist">
+                    <h2 id="wishlist-title">
+                        Wishlist
+                        <span class="material-symbols-outlined" alt="plus-symbol">
+                            add
+                        </span>
+                    </h2>
+
+                    <div class="wishlist">
+                        <div class="wishlist-container">
+                            <a href="" target="_blank"><img src="./img/mountains.jpg" alt="mountains" width="200px" height="auto"></a>
+                            <a href="" target="_blank">Mountains</a>
+                        </div>
+                        <div class="wishlist-container">
+                            <a href="" target="_blank"><img src="./img/sea.avif" alt="mountains" width="200px" height="auto"></a>
+                            <a href="" target="_blank">Sea</a>
+                        </div>
+                        <div class="wishlist-container">
+                            <a href="" target="_blank"><img src="./img/city.jpg" alt="mountains" width="200px" height="auto"></a>
+                            <a href="" target="_blank">City</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section_faq">
+                    <h2 id="faq-title">
+                        Common Questions
+                        <span class="material-symbols-outlined" alt="plus-symbol">
+                            add
+                        </span>
+                    </h2>
+
+                    <div class="faq">
+                        <span class="questions">
+                            <h3>Can I book flights and accommodations directly through your website?</h3>
+                            <div class="answer">- Yes, you can conveniently book flights and accommodations 
+                                directly through our website. We offer a seamless booking experience that 
+                                allows you to compare and choose from a wide range of flight options, hotels, 
+                                and other accommodation types. Once you've crafted your travel itinerary, 
+                                you can secure your bookings with just a few clicks, ensuring a hassle-free 
+                                and all-in-one travel planning process.</div>
+                        </span>
+                        
+                        <span class="questions">
+                            <h3>Do you offer suggestions for travel destinations?</h3>
+                            <div class="answer">- Absolutely! We take pride in providing a wealth of travel 
+                                destination suggestions to inspire your next adventure. Our website features a 
+                                variety of curated travel guides, articles, and recommendations to help you 
+                                discover exciting places to explore. Whether you're seeking a romantic getaway, 
+                                a family-friendly destination, an off-the-beaten-path adventure, or anything in 
+                                between, our platform offers a treasure trove of ideas to spark your wanderlust.</div>
+                        </span>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+    
+</html>
